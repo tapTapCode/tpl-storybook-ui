@@ -127,14 +127,14 @@ export const WithHeaderAndFooter: Story = {
           </div>
         }
       >
-        <div className="space-y-2">
+        <div className="space-y-4 py-2">
           <div className="flex justify-between text-sm">
-            <span>Status</span>
+            <span className="text-muted-foreground">Status</span>
             <span className="text-green-600 font-medium">Active</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span>Created</span>
-            <span className="text-muted-foreground">Jan 15, 2024</span>
+            <span className="text-muted-foreground">Created</span>
+            <span className="text-foreground">Jan 15, 2024</span>
           </div>
         </div>
       </Card>
@@ -168,14 +168,14 @@ export const ComplexLayout: Story = {
           </div>
         }
       >
-        <div className="space-y-2">
+        <div className="space-y-4 py-2">
           <div className="flex justify-between text-sm">
-            <span>Status</span>
+            <span className="text-muted-foreground">Status</span>
             <span className="text-green-600 font-medium">Active</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span>Created</span>
-            <span className="text-muted-foreground">Jan 15, 2024</span>
+            <span className="text-muted-foreground">Created</span>
+            <span className="text-foreground">Jan 15, 2024</span>
           </div>
         </div>
       </Card>
