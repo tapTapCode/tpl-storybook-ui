@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Card } from '../components/ui/card';
+import React from 'react';
+import { Card } from '../../components/ui/card';
 
 /**
  * Visual Regression Testing - Complex Components

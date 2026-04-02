@@ -1,0 +1,275 @@
+{
+  "encrypted": false,
+  "folders": [
+    {
+      "name": "Accounts"
+    },
+    {
+      "name": "Development & Tech"
+    },
+    {
+      "name": "Work & Freelance"
+    },
+    {
+      "name": "Finance & Payments"
+    },
+    {
+      "name": "Shopping & Entertainment"
+    },
+    {
+      "name": "Social & Communication"
+    },
+    {
+      "name": "Archive"
+    }
+  ],
+  "items": [
+    {
+      "type": 1,
+      "name": "Apple",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://appleid.apple.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Google (Gmail)",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://accounts.google.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Microsoft",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://account.microsoft.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Proton",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://account.proton.me"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "GitHub",
+      "notes": "priority: high",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://github.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Hostinger",
+      "notes": "priority: high",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://hpanel.hostinger.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Namecheap",
+      "notes": "priority: high",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://ap.www.namecheap.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Figma",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://www.figma.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Postman",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://identity.getpostman.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Upwork",
+      "notes": "priority: high",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://www.upwork.com/ab/account-security/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Remote",
+      "notes": "priority: high",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://app.remote.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Trello",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://trello.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "BPI",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://online.bpi.com.ph"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "PayPal",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://www.paypal.com/signin"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Wise",
+      "notes": "priority: high",
+      "favorite": true,
+      "login": {
+        "uris": [
+          {
+            "uri": "https://wise.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Netflix",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://www.netflix.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Lazada",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://member.lazada.com.ph/user/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Discord",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://discord.com/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "Twitch",
+      "notes": "priority: medium",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://www.twitch.tv/login"
+          }
+        ]
+      }
+    },
+    {
+      "type": 1,
+      "name": "boomering.zohorecruit.com",
+      "notes": "priority: low",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://boomering.zohorecruit.com"
+          }
+        ]
+      }
+    }
+  ]
+}
