@@ -121,7 +121,7 @@ export const WithHeaderAndFooter: Story = {
           </>
         }
         footer={
-          <div className="flex gap-2 w-full">
+          <div className="flex gap-4 w-full">
             <Button variant="outline" className="flex-1">Cancel</Button>
             <Button className="flex-1">Save</Button>
           </div>
@@ -162,7 +162,7 @@ export const ComplexLayout: Story = {
           </>
         }
         footer={
-          <div className="flex gap-2 w-full">
+          <div className="flex gap-4 w-full">
             <Button variant="outline" className="flex-1">Cancel</Button>
             <Button className="flex-1">Save</Button>
           </div>
