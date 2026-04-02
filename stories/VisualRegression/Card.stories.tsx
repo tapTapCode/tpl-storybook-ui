@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 import { Card } from '../../components/ui/card';
+import { Button } from '../../components/ui/button';
 
 /**
  * Visual Regression Testing - Complex Components
@@ -121,8 +122,8 @@ export const WithHeaderAndFooter: Story = {
         }
         footer={
           <div className="flex gap-2 w-full">
-            <button className="flex-1 px-4 py-2 border rounded">Cancel</button>
-            <button className="flex-1 px-4 py-2 bg-primary text-white rounded">Save</button>
+            <Button variant="outline" className="flex-1">Cancel</Button>
+            <Button className="flex-1">Save</Button>
           </div>
         }
       >
@@ -152,7 +153,7 @@ export const WithHeaderAndFooter: Story = {
  */
 export const ComplexLayout: Story = {
   render: () => (
-    <div className="w-[600px] space-y-4">
+    <div className="w-[600px] p-6">
       <Card
         header={
           <>
@@ -162,8 +163,8 @@ export const ComplexLayout: Story = {
         }
         footer={
           <div className="flex gap-2 w-full">
-            <button className="flex-1 px-4 py-2 border rounded">Cancel</button>
-            <button className="flex-1 px-4 py-2 bg-primary text-white rounded">Save</button>
+            <Button variant="outline" className="flex-1">Cancel</Button>
+            <Button className="flex-1">Save</Button>
           </div>
         }
       >
