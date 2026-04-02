@@ -58,7 +58,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(
           </div>
         )}
         <div className="p-6">{children}</div>
-        {footer && <div className="flex items-center p-6">{footer}</div>}
+        {footer && <div className="flex items-center p-6 mt-4 border-t">{footer}</div>}
         {error && (
           <div className="px-6 pb-4">
             <p className="text-sm text-red-500">{error}</p>
