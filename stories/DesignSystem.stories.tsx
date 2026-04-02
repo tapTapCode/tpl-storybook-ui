@@ -19,7 +19,7 @@ type Story = StoryObj;
 
 export const Introduction: Story = {
   render: () => (
-    <div className="p-8 max-w-4xl">
+    <div className="p-6 max-w-4xl">
       <h1 className="text-4xl font-bold mb-4">Design System</h1>
       <p className="text-lg text-muted-foreground mb-8">
         A comprehensive Tailwind CSS-based UI library documented in Storybook.
