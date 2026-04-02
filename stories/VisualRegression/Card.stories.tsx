@@ -106,6 +106,47 @@ export const DarkMode: Story = {
 };
 
 /**
+ * Card with Header and Footer - Project Settings example
+ * Demonstrates a real-world card layout with header and footer
+ */
+export const WithHeaderAndFooter: Story = {
+  render: () => (
+    <div className="w-[600px] p-6">
+      <Card
+        header={
+          <>
+            <h3 className="text-lg font-semibold">Project Settings</h3>
+            <p className="text-sm text-muted-foreground">Configure your project settings</p>
+          </>
+        }
+        footer={
+          <div className="flex gap-2 w-full">
+            <button className="flex-1 px-4 py-2 border rounded">Cancel</button>
+            <button className="flex-1 px-4 py-2 bg-primary text-white rounded">Save</button>
+          </div>
+        }
+      >
+        <div className="space-y-2">
+          <div className="flex justify-between text-sm">
+            <span>Status</span>
+            <span className="text-green-600 font-medium">Active</span>
+          </div>
+          <div className="flex justify-between text-sm">
+            <span>Created</span>
+            <span className="text-muted-foreground">Jan 15, 2024</span>
+          </div>
+        </div>
+      </Card>
+    </div>
+  ),
+  parameters: {
+    chromatic: {
+      delay: 400,
+    },
+  },
+};
+
+/**
  * Complex Layout - Tests composite patterns
  * Verifies spacing and alignment in complex layouts
  */
