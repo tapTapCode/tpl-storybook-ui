@@ -176,7 +176,7 @@ export const WithHeaderAndFooter: Story = {
 // All states in one view - DESIGN SYSTEM DOCUMENTATION
 export const AllStates: Story = {
   render: () => (
-    <div className="grid grid-cols-2 gap-4 w-[600px]">
+    <div className="grid grid-cols-2 gap-4 w-[600px] p-6">
       <Card>
         <h4 className="font-medium">Default</h4>
       </Card>

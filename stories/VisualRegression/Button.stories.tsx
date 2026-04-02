@@ -63,7 +63,7 @@ export const Base: Story = {
  */
 export const AllVariants: Story = {
   render: () => (
-    <div className="flex flex-wrap gap-4 p-4">
+    <div className="flex flex-wrap gap-4 p-6">
       <Button variant="default">Default</Button>
       <Button variant="destructive">Destructive</Button>
       <Button variant="outline">Outline</Button>
@@ -91,7 +91,7 @@ export const AllVariants: Story = {
  */
 export const AllSizes: Story = {
   render: () => (
-    <div className="flex flex-wrap items-center gap-4 p-4">
+    <div className="flex flex-wrap items-center gap-4 p-6">
       <Button size="sm">Small</Button>
       <Button size="default">Default</Button>
       <Button size="lg">Large</Button>

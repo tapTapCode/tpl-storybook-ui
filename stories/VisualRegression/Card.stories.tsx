@@ -49,7 +49,7 @@ export const Default: Story = {
  */
 export const AllStates: Story = {
   render: () => (
-    <div className="grid grid-cols-2 gap-4 w-[600px]">
+    <div className="grid grid-cols-2 gap-4 w-[600px] p-6">
       <Card>
         <h4 className="font-medium">Default</h4>
         <p className="text-sm text-muted-foreground">Normal state</p>
