@@ -4,7 +4,7 @@ import React from 'react';
 const meta: Meta = {
   title: 'Design System/Typography',
   parameters: {
-    layout: 'padded',
+    layout: 'fullscreen',
     docs: {
       description: {
         component: 'Typography scale, font weights, and text utilities reference.',
@@ -19,7 +19,7 @@ type Story = StoryObj;
 
 export const Scale: Story = {
   render: () => (
-    <div className="space-y-8 max-w-3xl">
+    <div className="p-6 space-y-8 max-w-3xl">
       <div>
         <h2 className="text-2xl font-semibold mb-6">Type Scale</h2>
         <div className="space-y-6">
@@ -127,7 +127,7 @@ export const Scale: Story = {
 
 export const DarkMode: Story = {
   render: () => (
-    <div className="dark bg-background p-6 rounded-lg border">
+    <div className="p-6 dark bg-background rounded-lg border">
       <h2 className="text-2xl font-semibold mb-6 text-foreground">Dark Mode Typography</h2>
       <div className="space-y-4">
         <p className="text-3xl font-bold text-foreground">Heading in Dark Mode</p>

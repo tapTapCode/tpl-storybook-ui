@@ -4,7 +4,7 @@ import React from 'react';
 const meta: Meta = {
   title: 'Design System/Colors',
   parameters: {
-    layout: 'padded',
+    layout: 'fullscreen',
     docs: {
       description: {
         component: 'Complete color palette and CSS variable reference for the design system.',
@@ -41,7 +41,7 @@ const ColorSwatch = ({
 
 export const Primary: Story = {
   render: () => (
-    <div className="space-y-8">
+    <div className="p-6 space-y-8">
       <div>
         <h2 className="text-2xl font-semibold mb-4">Primary Colors</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -161,7 +161,7 @@ export const Primary: Story = {
 
 export const DarkMode: Story = {
   render: () => (
-    <div className="dark bg-background p-6 rounded-lg border">
+    <div className="p-6 dark bg-background rounded-lg border">
       <h2 className="text-2xl font-semibold mb-4 text-foreground">Dark Mode Colors</h2>
       <p className="text-muted-foreground mb-6">
         Colors automatically adapt when the <code className="bg-muted px-1 rounded">dark</code> class is applied.

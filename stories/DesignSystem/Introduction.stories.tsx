@@ -19,7 +19,7 @@ type Story = StoryObj;
 
 export const Overview: Story = {
   render: () => (
-    <div className="p-8 max-w-5xl mx-auto">
+    <div className="p-6 max-w-5xl mx-auto">
       <header className="mb-12">
         <h1 className="text-5xl font-bold mb-4">Design System</h1>
         <p className="text-xl text-muted-foreground">
